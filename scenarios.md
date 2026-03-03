@@ -26,7 +26,6 @@ Additional features: <br>
 -   Upload can be canceled by user
 
 ## Test Scope
-## Test Scope
 
 ### ✅ In Scope
 - **File Upload Validation**
