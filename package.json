@@ -1,0 +1,31 @@
+{
+  "name": "cypress-serverest",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "cypress run",
+    "open": "cypress open",
+    "eslint": "eslint cypress/",
+    "eslint:fix": "eslint cypress/ --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrnFtsz/cypress-serverest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrnFtsz/cypress-serverest/issues"
+  },
+  "homepage": "https://github.com/BrnFtsz/cypress-serverest#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.39.3",
+    "@faker-js/faker": "^9.2.0",
+    "cypress": "^15.11.0",
+    "eslint": "^9.39.3",
+    "eslint-plugin-cypress": "^6.1.0",
+    "globals": "^17.4.0"
+  }
+}
