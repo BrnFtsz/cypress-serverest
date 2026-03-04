@@ -5,6 +5,8 @@ module.exports = defineConfig({
 
   e2e: {
     baseUrl: "https://serverest.dev",
+    allowCypressEnv: true,
+  
     setupNodeEvents(on, config) {
     },
     viewportWidth: 1366,
