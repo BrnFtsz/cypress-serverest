@@ -6,7 +6,7 @@ describe('ServeRest Webpage', () => {
         cy.visit(Cypress.env('webURL'))
     })
 
-    it('T01- Create new user (intecept)', () => {
+    it('T01- Create new user (intercept)', () => {
         cy.get('[data-testid="cadastrar"]').click()
         cy.intercept('POST','/usuarios').as('createUser')
         cy.get('[data-testid="nome"]').type(faker.person.fullName())
